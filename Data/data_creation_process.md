@@ -8,7 +8,7 @@ This document outlines the process of creating synthetic test data for the Kroge
 ### 1. Customers Table
 **Business Context**: Stores essential customer information for order processing and personalization.
 ```
-Screenshot: ![Customers Table Data](images/customer_table.png)
+<img width="1147" alt="customer_table" src="https://github.com/user-attachments/assets/6ff360ac-b949-499f-b436-f261b2d33948">
 ```
 **Data Structure**:
 - customerID (Primary Key)
