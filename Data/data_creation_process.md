@@ -8,7 +8,7 @@ This document outlines the process of creating synthetic test data for the Kroge
 ### 1. Customers Table
 **Business Context**: Stores essential customer information for order processing and personalization.
 ```
-Screenshot: ![Customers Table Data](Images/customer_table.png)
+Screenshot: [Customers Table Data](Images/customer_table.png)
 ```
 **Data Structure**:
 - customerID (Primary Key)
@@ -26,7 +26,7 @@ Screenshot: ![Customers Table Data](Images/customer_table.png)
 ### 2. Orders Table
 **Business Context**: Tracks customer orders and their current status in the fulfillment process.
 ```
-Screenshot: ![Orders Table Data](Images/orders_table.png)
+Screenshot: [Orders Table Data](images/orders_table.png)
 ```
 **Sample Data Structure**:
 - orderID (Primary Key)
@@ -43,7 +43,7 @@ Screenshot: ![Orders Table Data](Images/orders_table.png)
 ### 3. OrderDetails Table
 **Business Context**: Contains specific information about items within each order.
 ```
-Screenshot: ![Orders Details Table Data](Images/OrderDetails%20.png)
+Screenshot: [Orders Details Table Data](images/OrderDetails%20.png)
 ```
 **Sample Data Structure**:
 - orderID (Foreign Key - "Orders" table)
@@ -58,7 +58,7 @@ Screenshot: ![Orders Details Table Data](Images/OrderDetails%20.png)
 ### 4. Products Table
 **Business Context**: Maintains product information including organic and non-organic items.
 ```
-Screenshot: ![Products Table Data](Images/products_table.png)
+Screenshot: [Products Table Data](images/products_table.png)
 ```
 **Sample Data Structure**:
 - productID (Primary Key)
@@ -73,7 +73,7 @@ Screenshot: ![Products Table Data](Images/products_table.png)
 ### 5. ShoppingList Table
 **Business Context**: Tracks customer shopping lists for future purchases.
 ```
-Screenshot: ![ShoppingList Table Data](Images/shoppinglist_table.png)
+Screenshot: [ShoppingList Table Data](images/shoppinglist_table.png)
 ```
 **Sample Data Structure**:
 - listID (Primary Key)
@@ -87,7 +87,7 @@ Screenshot: ![ShoppingList Table Data](Images/shoppinglist_table.png)
 ### 6. ShoppingItems Table
 **Business Context**: Links products to shopping lists.
 ```
-Screenshot: ![ShoppingItems Table Data](Images/shoppingitems_table.png)
+Screenshot: [ShoppingItems Table Data](images/shoppingitems_table.png)
 ```
 **Sample Data Structure**:
 - listID (Foreign Key - "ShoppingList" table)
@@ -101,7 +101,7 @@ Screenshot: ![ShoppingItems Table Data](Images/shoppingitems_table.png)
 ### 7. WeeklyAd Table
 **Business Context**: Manages weekly advertisement campaigns.
 ```
-Screenshot: ![WeeklyAd Table Data](Images/weeklyad_table.png)
+Screenshot: [WeeklyAd Table Data](images/weeklyad_table.png)
 ```
 **Sample Data Structure**:
 - adID (Primary Key)
@@ -119,7 +119,7 @@ Screenshot: ![WeeklyAd Table Data](Images/weeklyad_table.png)
 ### 8. Coupons Table
 **Business Context**: Tracks available promotional discounts.
 ```
-Screenshot: ![Coupons Table Data](Images/coupons_table.png)
+Screenshot: [Coupons Table Data](images/coupons_table.png)
 ```
 **Sample Data Structure**:
 - couponID (Primary Key)
@@ -137,7 +137,7 @@ Screenshot: ![Coupons Table Data](Images/coupons_table.png)
 ### 9. Store Table
 **Business Context**: Tracks the Kroger store. Useful for future implementations involving multiple stores
 ```
-Screenshot: ![Store Table Data](Images/store_table.png)
+Screenshot: [Store Table Data](images/store_table.png)
 ```
 **Sample Data Structure**:
 - storeID (Primary Key)
@@ -151,7 +151,7 @@ Screenshot: ![Store Table Data](Images/store_table.png)
 ### 10. Product Category Table
 **Business Context**: Showcases the categories for each product
 ```
-Screenshot: ![Product Category Table Data](Images/product_category_table.png)
+Screenshot: [Product Category Table Data](images/product_category_table.png)
 ```
 **Sample Data Structures**:
 - categoryID
